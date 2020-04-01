@@ -22,10 +22,10 @@ class KnpCategoryTreeRenderer
         if (is_object($app)) {
             $this->app = $app;
         } else {
-            $this->app = mw();
+            $this->app = app();
         }
-        $this->menu_factory = new MenuFactory();
 
+        $this->menu_factory = new MenuFactory();
 
         $active_cat = false;
         if (defined('CATEGORY_ID')) {

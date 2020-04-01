@@ -2,9 +2,9 @@
 
 class CategoryManagerTest extends BaseTest
 {
-    public function testCategory()
+    public function testCategoryTree()
     {
-
+        $tree = category_tree('all=1');
     }
 
 }
