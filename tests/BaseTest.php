@@ -34,7 +34,8 @@ abstract class BaseTest extends Orchestra\Testbench\TestCase
     {
         return [
             'database_manager' => \MicroweberPackages\DatabaseManager\DatabaseManagerFacade::class,
-            'option_manager' => \MicroweberPackages\ContentManager\ContentManagerFacade::class
+            'option_manager' => \MicroweberPackages\ContentManager\ContentManagerFacade::class,
+            'category_manager' => \MicroweberPackages\CategoryManager\CategoryManagerFacade::class
         ];
     }
 

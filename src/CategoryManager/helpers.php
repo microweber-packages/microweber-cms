@@ -24,9 +24,7 @@ function get_categories($data)
 
 function save_category($data)
 {
-    $s = app()->category_manager->save($data);
-
-    return $s;
+    return app()->category_manager->save($data);
 }
 
 function delete_category($data)

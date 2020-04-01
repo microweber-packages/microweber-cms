@@ -488,7 +488,10 @@ class CategoryManager
 
     public function save($data, $preserve_cache = false)
     {
-        $sid = $this->app->user_manager->session_id();
+        $sid = false;
+        if (isset($this->app->user_manager)) {
+            $sid = $this->app->user_manager->session_id();
+        }
 
         if (is_string($data)) {
             $data = parse_params($data);
