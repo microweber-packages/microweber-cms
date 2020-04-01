@@ -2194,8 +2194,8 @@ class ContentManager
             $data = parse_params($data);
         }
 
-        $admin = false;
-        if (isset($this->app->user_manager)) {
+        $adm = false;
+        if (is_object($this->app->user_manager)) {
             $adm = $this->app->user_manager->is_admin();
         }
 
