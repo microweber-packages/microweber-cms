@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "88c3b59de9f09f93243bc58b77151aab",
+    "content-hash": "927f37f98ab5aa6c8a3aacdcc66dc236",
     "packages": [
         {
             "name": "doctrine/inflector",
@@ -709,23 +709,24 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/microweber-packages/microweber-database-manager.git",
-                "reference": "79aaf6d0f17fa41c01a54e19a77c08a9f8edd31c"
+                "reference": "16077912321c76f9c843dc79e93e935266d95d40"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/microweber-packages/microweber-database-manager/zipball/79aaf6d0f17fa41c01a54e19a77c08a9f8edd31c",
-                "reference": "79aaf6d0f17fa41c01a54e19a77c08a9f8edd31c",
+                "url": "https://api.github.com/repos/microweber-packages/microweber-database-manager/zipball/16077912321c76f9c843dc79e93e935266d95d40",
+                "reference": "16077912321c76f9c843dc79e93e935266d95d40",
                 "shasum": ""
             },
             "require": {
-                "illuminate/database": "*",
                 "jeremeamia/superclosure": "*",
+                "laravel/framework": "7.0.0",
                 "microweber-packages/laravel-tagged-file-cache": "dev-master",
+                "microweber-packages/microweber-event-manager": "dev-master",
                 "microweber-packages/microweber-helpers": "dev-master"
             },
             "require-dev": {
                 "mockery/mockery": "*",
-                "orchestra/testbench": "4.*"
+                "orchestra/testbench": "*"
             },
             "type": "library",
             "extra": {
@@ -762,7 +763,7 @@
             ],
             "description": "Microweber database manager.",
             "homepage": "http://microweber.com",
-            "time": "2020-03-26T01:51:17+00:00"
+            "time": "2020-04-01T11:39:26+00:00"
         },
         {
             "name": "microweber-packages/microweber-event-manager",
@@ -831,12 +832,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/microweber-packages/microweber-helpers.git",
-                "reference": "f4feeec3d53f5715b5e7732682a325102781093c"
+                "reference": "00f70e450f45d966666c1ab233ad983208b81d46"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/microweber-packages/microweber-helpers/zipball/f4feeec3d53f5715b5e7732682a325102781093c",
-                "reference": "f4feeec3d53f5715b5e7732682a325102781093c",
+                "url": "https://api.github.com/repos/microweber-packages/microweber-helpers/zipball/00f70e450f45d966666c1ab233ad983208b81d46",
+                "reference": "00f70e450f45d966666c1ab233ad983208b81d46",
                 "shasum": ""
             },
             "require": {
@@ -886,7 +887,7 @@
             ],
             "description": "PHP helper funcitons.",
             "homepage": "http://microweber.com",
-            "time": "2020-03-30T12:56:20+00:00"
+            "time": "2020-04-01T11:44:04+00:00"
         },
         {
             "name": "monolog/monolog",
@@ -4987,6 +4988,7 @@
     "aliases": [],
     "minimum-stability": "dev",
     "stability-flags": {
+        "microweber-packages/microweber-helpers": 20,
         "microweber-packages/microweber-database-manager": 20,
         "microweber-packages/microweber-event-manager": 20
     },
