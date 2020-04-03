@@ -38,7 +38,9 @@
     "laravel": {
       "providers": [
         "MicroweberPackages\\ContentManager\\ContentManagerServiceProvider",
-        "MicroweberPackages\\CategoryManager\\CategoryManagerServiceProvider"
+        "MicroweberPackages\\CategoryManager\\CategoryManagerServiceProvider",
+        "MicroweberPackages\\MediaManager\\TagsManagerServiceProvider",
+        "MicroweberPackages\\TagsManager\\MediaManagerServiceProvider"
       ],
       "aliases": {
         "ContentManager": "MicroweberPackages\\ContentManager\\ContentManagerFacade",
