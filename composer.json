@@ -40,13 +40,15 @@
       "providers": [
         "MicroweberPackages\\ContentManager\\ContentManagerServiceProvider",
         "MicroweberPackages\\CategoryManager\\CategoryManagerServiceProvider",
-        "MicroweberPackages\\MediaManager\\TagsManagerServiceProvider",
-        "MicroweberPackages\\TagsManager\\MediaManagerServiceProvider"
+        "MicroweberPackages\\TagsManager\\TagsManagerServiceProvider",
+        "MicroweberPackages\\MediaManager\\MediaManagerServiceProvider"
+        "MicroweberPackages\\MenuManager\\MenuManagerServiceProvider"
       ],
       "aliases": {
         "ContentManager": "MicroweberPackages\\ContentManager\\ContentManagerFacade",
         "CategoryManager": "MicroweberPackages\\CategoryManager\\CategoryManagerFacade",
         "MediaManager": "MicroweberPackages\\MediaManager\\MediaManagerFacade",
+        "MenuManager": "MicroweberPackages\\MenuManager\\MenuManagerFacade",
         "TagsManager": "MicroweberPackages\\TagsManager\\TagsManagerFacade"
       }
     }
