@@ -1,5 +1,5 @@
 <?php
-class MediaTest extends TestCase
+class MediaTest extends BaseTest
 {
     public function testSaveMedia()
     {

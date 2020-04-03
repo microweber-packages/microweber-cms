@@ -32,7 +32,9 @@
     },
     "files": [
       "src/ContentManager/helpers.php",
-      "src/CategoryManager/helpers.php"
+      "src/CategoryManager/helpers.php",
+      "src/MediaManager/helpers.php",
+      "src/MediaManager/helpers_paths.php"
     ]
   },
   "extra": {

@@ -26,7 +26,8 @@ abstract class BaseTest extends Orchestra\Testbench\TestCase
             \MicroweberPackages\Helpers\HelpersServiceProvider::class,
             \MicroweberPackages\EventManager\EventManagerServiceProvider::class,
             \MicroweberPackages\ContentManager\ContentManagerServiceProvider::class,
-            \MicroweberPackages\CategoryManager\CategoryManagerServiceProvider::class
+            \MicroweberPackages\CategoryManager\CategoryManagerServiceProvider::class,
+            \MicroweberPackages\MediaManager\MediaManagerServiceProvider::class,
         ];
     }
 
