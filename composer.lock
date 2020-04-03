@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "55098680c8daf20b1e369421b7a4d7f7",
+    "content-hash": "f06cd69c08d51f15f8ff60392853b867",
     "packages": [
         {
             "name": "doctrine/inflector",
@@ -901,12 +901,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/microweber-packages/microweber-helpers.git",
-                "reference": "dd2aca023ed3cb529d94192e25197caeac879e71"
+                "reference": "b2e7bcbffcbb3103a4ad5e014f022f61fa5a7e93"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/microweber-packages/microweber-helpers/zipball/dd2aca023ed3cb529d94192e25197caeac879e71",
-                "reference": "dd2aca023ed3cb529d94192e25197caeac879e71",
+                "url": "https://api.github.com/repos/microweber-packages/microweber-helpers/zipball/b2e7bcbffcbb3103a4ad5e014f022f61fa5a7e93",
+                "reference": "b2e7bcbffcbb3103a4ad5e014f022f61fa5a7e93",
                 "shasum": ""
             },
             "require": {
@@ -956,7 +956,7 @@
             ],
             "description": "PHP helper funcitons.",
             "homepage": "http://microweber.com",
-            "time": "2020-04-01T13:46:38+00:00"
+            "time": "2020-04-03T14:39:03+00:00"
         },
         {
             "name": "monolog/monolog",
@@ -4325,16 +4325,16 @@
         },
         {
             "name": "phpunit/phpunit",
-            "version": "9.1.0",
+            "version": "9.1.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sebastianbergmann/phpunit.git",
-                "reference": "ef2af937ce574f215afb6dca37d583cb2964bad9"
+                "reference": "848f6521c906500e66229668768576d35de0227e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/ef2af937ce574f215afb6dca37d583cb2964bad9",
-                "reference": "ef2af937ce574f215afb6dca37d583cb2964bad9",
+                "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/848f6521c906500e66229668768576d35de0227e",
+                "reference": "848f6521c906500e66229668768576d35de0227e",
                 "shasum": ""
             },
             "require": {
@@ -4408,7 +4408,7 @@
                 "testing",
                 "xunit"
             ],
-            "time": "2020-04-03T05:23:04+00:00"
+            "time": "2020-04-03T14:40:04+00:00"
         },
         {
             "name": "sebastian/code-unit",
