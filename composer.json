@@ -44,7 +44,9 @@
       ],
       "aliases": {
         "ContentManager": "MicroweberPackages\\ContentManager\\ContentManagerFacade",
-        "CategoryManager": "MicroweberPackages\\CategoryManager\\CategoryManagerFacade"
+        "CategoryManager": "MicroweberPackages\\CategoryManager\\CategoryManagerFacade",
+        "MediaManager": "MicroweberPackages\\MediaManager\\MediaManagerFacade",
+        "TagsManager": "MicroweberPackages\\TagsManager\\TagsManagerFacade"
       }
     }
   },
