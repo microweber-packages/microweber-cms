@@ -41,7 +41,7 @@
         "MicroweberPackages\\ContentManager\\ContentManagerServiceProvider",
         "MicroweberPackages\\CategoryManager\\CategoryManagerServiceProvider",
         "MicroweberPackages\\TagsManager\\TagsManagerServiceProvider",
-        "MicroweberPackages\\MediaManager\\MediaManagerServiceProvider"
+        "MicroweberPackages\\MediaManager\\MediaManagerServiceProvider",
         "MicroweberPackages\\MenuManager\\MenuManagerServiceProvider"
       ],
       "aliases": {
