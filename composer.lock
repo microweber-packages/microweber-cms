@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "e3c5ee7090c761f4822d389d46984993",
+    "content-hash": "55098680c8daf20b1e369421b7a4d7f7",
     "packages": [
         {
             "name": "doctrine/inflector",
@@ -350,6 +350,7 @@
                 "serialize",
                 "tokenizer"
             ],
+            "abandoned": "opis/closure",
             "time": "2018-03-21T22:21:57+00:00"
         },
         {
@@ -777,12 +778,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/microweber-packages/microweber-database-manager.git",
-                "reference": "16077912321c76f9c843dc79e93e935266d95d40"
+                "reference": "d2ba89d3ba65b60f3d9a56a3e95589ba01741b97"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/microweber-packages/microweber-database-manager/zipball/16077912321c76f9c843dc79e93e935266d95d40",
-                "reference": "16077912321c76f9c843dc79e93e935266d95d40",
+                "url": "https://api.github.com/repos/microweber-packages/microweber-database-manager/zipball/d2ba89d3ba65b60f3d9a56a3e95589ba01741b97",
+                "reference": "d2ba89d3ba65b60f3d9a56a3e95589ba01741b97",
                 "shasum": ""
             },
             "require": {
@@ -831,7 +832,7 @@
             ],
             "description": "Microweber database manager.",
             "homepage": "http://microweber.com",
-            "time": "2020-04-01T11:39:26+00:00"
+            "time": "2020-04-01T13:08:28+00:00"
         },
         {
             "name": "microweber-packages/microweber-event-manager",
@@ -900,12 +901,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/microweber-packages/microweber-helpers.git",
-                "reference": "00f70e450f45d966666c1ab233ad983208b81d46"
+                "reference": "dd2aca023ed3cb529d94192e25197caeac879e71"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/microweber-packages/microweber-helpers/zipball/00f70e450f45d966666c1ab233ad983208b81d46",
-                "reference": "00f70e450f45d966666c1ab233ad983208b81d46",
+                "url": "https://api.github.com/repos/microweber-packages/microweber-helpers/zipball/dd2aca023ed3cb529d94192e25197caeac879e71",
+                "reference": "dd2aca023ed3cb529d94192e25197caeac879e71",
                 "shasum": ""
             },
             "require": {
@@ -955,7 +956,7 @@
             ],
             "description": "PHP helper funcitons.",
             "homepage": "http://microweber.com",
-            "time": "2020-04-01T11:44:04+00:00"
+            "time": "2020-04-01T13:46:38+00:00"
         },
         {
             "name": "monolog/monolog",
@@ -1598,6 +1599,68 @@
                 "uuid"
             ],
             "time": "2020-02-21T04:36:14+00:00"
+        },
+        {
+            "name": "rtconner/laravel-tagging",
+            "version": "4.0.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/rtconner/laravel-tagging.git",
+                "reference": "fa13edb2151ec32eaa85083ed8aed6a7bb934ec9"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/rtconner/laravel-tagging/zipball/fa13edb2151ec32eaa85083ed8aed6a7bb934ec9",
+                "reference": "fa13edb2151ec32eaa85083ed8aed6a7bb934ec9",
+                "shasum": ""
+            },
+            "require": {
+                "illuminate/database": ">= 5.0|^6.0|^7.0",
+                "illuminate/support": ">= 5.0|^6.0|^7.0",
+                "php": ">=7.0"
+            },
+            "require-dev": {
+                "mockery/mockery": "~1.2",
+                "orchestra/testbench": "5.*|4.*",
+                "phpunit/phpunit": "8.*",
+                "vlucas/phpdotenv": "~4.1"
+            },
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "Conner\\Tagging\\Providers\\TaggingServiceProvider"
+                    ]
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Conner\\Tagging\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Robert Conner",
+                    "email": "rtconner+gh@smarter.bz"
+                }
+            ],
+            "description": "Use PHP traits to extend Laravel Eloquent Models to allow Tags. Models can be marked as Taggable.",
+            "homepage": "https://smartersoftware.net/packages/laravel-tagging-taggable",
+            "keywords": [
+                "Taggable",
+                "eloquent",
+                "laravel",
+                "laravel5",
+                "tag",
+                "tagged",
+                "tagging",
+                "tags"
+            ],
+            "time": "2020-03-15T05:32:54+00:00"
         },
         {
             "name": "swiftmailer/swiftmailer",
@@ -4262,16 +4325,16 @@
         },
         {
             "name": "phpunit/phpunit",
-            "version": "9.0.2",
+            "version": "9.1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sebastianbergmann/phpunit.git",
-                "reference": "c0ecbfb898ab8b24d8a59a23520f7b2a73e27b5b"
+                "reference": "ef2af937ce574f215afb6dca37d583cb2964bad9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/c0ecbfb898ab8b24d8a59a23520f7b2a73e27b5b",
-                "reference": "c0ecbfb898ab8b24d8a59a23520f7b2a73e27b5b",
+                "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/ef2af937ce574f215afb6dca37d583cb2964bad9",
+                "reference": "ef2af937ce574f215afb6dca37d583cb2964bad9",
                 "shasum": ""
             },
             "require": {
@@ -4292,6 +4355,7 @@
                 "phpunit/php-invoker": "^3.0",
                 "phpunit/php-text-template": "^2.0",
                 "phpunit/php-timer": "^3.0",
+                "sebastian/code-unit": "^1.0",
                 "sebastian/comparator": "^4.0",
                 "sebastian/diff": "^4.0",
                 "sebastian/environment": "^5.0.1",
@@ -4315,7 +4379,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "9.0-dev"
+                    "dev-master": "9.1-dev"
                 }
             },
             "autoload": {
@@ -4344,7 +4408,53 @@
                 "testing",
                 "xunit"
             ],
-            "time": "2020-03-31T08:57:51+00:00"
+            "time": "2020-04-03T05:23:04+00:00"
+        },
+        {
+            "name": "sebastian/code-unit",
+            "version": "1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/sebastianbergmann/code-unit.git",
+                "reference": "8d8f09bd47c75159921e6e84fdef146343962866"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/sebastianbergmann/code-unit/zipball/8d8f09bd47c75159921e6e84fdef146343962866",
+                "reference": "8d8f09bd47c75159921e6e84fdef146343962866",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^7.3"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^9.0"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.0-dev"
+                }
+            },
+            "autoload": {
+                "classmap": [
+                    "src/"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Sebastian Bergmann",
+                    "email": "sebastian@phpunit.de",
+                    "role": "lead"
+                }
+            ],
+            "description": "Collection of value objects that represent the PHP code units",
+            "homepage": "https://github.com/sebastianbergmann/code-unit",
+            "time": "2020-03-30T11:59:20+00:00"
         },
         {
             "name": "sebastian/code-unit-reverse-lookup",
