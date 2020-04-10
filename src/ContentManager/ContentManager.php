@@ -2142,6 +2142,10 @@ class ContentManager
         }
 
         $link = $this->get_by_id($id);
+        if(!$link){
+            return;
+        }
+
         $site_url = $this->app->url_manager->site();
 
         if (isset($link['is_home']) and intval($link['is_home']) == 1) {
@@ -2150,6 +2154,9 @@ class ContentManager
 
         if (!isset($link['url']) or strval($link['url']) == '') {
             $link = $this->get_by_url($id);
+        }
+        if(!$link){
+            return;
         }
 
         if (!stristr($link['url'], $site_url)) {
